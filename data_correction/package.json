@@ -1,0 +1,49 @@
+{
+  "name": "data-correction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Archors/katas-nodejs-exalt-it.git"
+  },
+  "author": "Antoine C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Archors/katas-nodejs-exalt-it/issues"
+  },
+  "homepage": "https://github.com/Archors/katas-nodejs-exalt-it#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "babel": "^6.23.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.12",
+    "@babel/plugin-transform-modules-commonjs": "^7.17.12",
+    "@babel/preset-env": "^7.17.12",
+    "babel-jest": "^28.1.0",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.15.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.2.2",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "jest": "^28.1.0",
+    "regenerator-runtime": "^0.13.9",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "env": {
+    "test": {
+      "plugins": [
+        "@babel/plugin-transform-modules-commonjs"
+      ]
+    }
+  }
+}
