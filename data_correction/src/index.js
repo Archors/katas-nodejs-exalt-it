@@ -19,4 +19,4 @@ finalData = mergeDeep(finalData, finalData);
 createFile("dataSanitize.json", finalData);
 //Upload it on Krate
 postData(finalData);
-console.log("merge :\n", finalData);
+console.log("Data :\n", finalData);
